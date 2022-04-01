@@ -10,7 +10,5 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "14"
-      - run: node --version
-      - run: ls
-      - run: pwd
-      - run: yarn install
+          cache: "yarn"
+      - run: yarn --version
