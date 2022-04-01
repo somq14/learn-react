@@ -2,6 +2,7 @@
   "name": "learn-react",
   "packageManager": "yarn@3.2.0",
   "version": "0.1.0",
+  "homepage": "https://somq14.github.io/learn-react",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
