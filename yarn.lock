@@ -5458,7 +5458,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.3.0":
+"eslint@npm:8.12.0, eslint@npm:^8.3.0":
   version: 8.12.0
   resolution: "eslint@npm:8.12.0"
   dependencies:
@@ -7718,6 +7718,7 @@ __metadata:
     "@types/node": 16.11.26
     "@types/react": 17.0.43
     "@types/react-dom": 17.0.14
+    eslint: 8.12.0
     prettier: 2.6.1
     react: 18.0.0
     react-dom: 18.0.0
