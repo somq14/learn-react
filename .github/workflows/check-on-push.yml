@@ -12,3 +12,7 @@ jobs:
           node-version: "14"
           cache: "yarn"
       - run: yarn install
+      - run: yarn prettier --ignore-unknown --check '**/*'
+      - run: yarn eslint --max-warnings 0 '**/*.{js,jsx,ts,tsx}'
+      - run: yarn tsc --noEmit
+      - run: CI=true yarn react-scripts test
