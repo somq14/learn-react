@@ -5,7 +5,8 @@
     ":timezone(Asia/Tokyo)",
     "schedule:weekends",
     ":prHourlyLimitNone",
-    ":maintainLockFilesWeekly"
+    ":maintainLockFilesWeekly",
+    ":automergePatch"
   ],
   "commitMessagePrefix": "⬆️ "
 }
