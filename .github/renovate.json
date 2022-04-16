@@ -10,7 +10,7 @@
   "commitMessagePrefix": "⬆️ ",
   "packageRules": [
     {
-      "groupName": "patch version",
+      "groupName": "aaaaa bbbbbbb",
       "matchUpdateTypes": ["patch"]
     }
   ]
